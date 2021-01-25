@@ -2,6 +2,7 @@
  * 
  */
 package fr.declaration.variable;
+import java.util.Arrays;
 
 /**
  * @author nicolas
@@ -39,7 +40,7 @@ public class DeclarationApp {
 		chaines[0] = "Bonjour";
 		chaines[1] = " à toutes";
 		chaines[2] = " et à tous";
-		System.out.println(chaines);
+		System.out.println(Arrays.toString(chaines));
 	}
 
 }
