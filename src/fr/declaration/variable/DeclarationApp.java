@@ -4,7 +4,7 @@
 package fr.declaration.variable;
 
 /**
- * @author macbookair
+ * @author nicolas
  *
  */
 public class DeclarationApp {
@@ -13,7 +13,6 @@ public class DeclarationApp {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		byte b = 1;
 		short s = 2;
 		int i = 4;
@@ -34,7 +33,13 @@ public class DeclarationApp {
 		System.out.println(chaine);
 		String randomString = "Voici le résultat d’un calcul : \n1+5=6";
 		System.out.println(randomString);
-
+		int a = 053;
+		System.out.println(a);
+		String[] chaines = new String[3];
+		chaines[0] = "Bonjour";
+		chaines[1] = " à toutes";
+		chaines[2] = " et à tous";
+		System.out.println(chaines);
 	}
 
 }
