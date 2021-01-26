@@ -12,11 +12,13 @@ public class ComparaisonTableau {
 			for (int j = 0; j < array2.length; j++) {
 				if (array1[i]==array2[j]) {
 					eltCommun += 1;
+					//System.out.print(array1[i]+" ");
 				}
 			}		
 		}
 
-		System.out.println(eltCommun);
+		System.out.println(eltCommun + " éléments en commun dans les 2 tableaux.");
+
 	}
 
 }

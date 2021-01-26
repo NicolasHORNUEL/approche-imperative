@@ -14,8 +14,12 @@ public class SommeDeTableauxDiff {
 			somme2 += array2[j];
 		}
 		int[] arrays = {somme1, somme2};
-		System.out.println(somme1 + " " + somme2);
-		System.out.println(arrays[0] + " " + arrays[1]);
+		
+		System.out.print("La somme des " + array1.length + " éléments ");
+		System.out.println("du tableau 1 est : " + arrays[0]);
+		
+		System.out.print("La somme des " + array2.length + " éléments ");
+		System.out.println("du tableau 2 est : " + arrays[1]);
 
 	}
 

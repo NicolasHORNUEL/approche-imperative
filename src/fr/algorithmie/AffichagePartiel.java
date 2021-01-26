@@ -19,7 +19,7 @@ public class AffichagePartiel {
 			}
 		}
 		System.out.println("\n\n-----------------------------------------");
-		System.out.println("\nIndex pairs : \n");
+		System.out.println("\nValeurs des Index pairs : \n");
 		for (int i = 0; i < array.length; i++) {
 			if (i%2==0) {
 				System.out.print(array[i]+" ");
